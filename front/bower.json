@@ -1,0 +1,8 @@
+{
+  "name": "my_app",
+  "private": true,
+  "dependencies": {
+    "vue": "~0.10.5",
+    "jquery": "~2.1.1"
+  }
+}

@@ -1,0 +1,6 @@
+textarea(v-text="newTweet")
+button(v-on="click: publish()", v-attr="disabled: newTweet.length == 0") Publish
+ul.tweet-timeline
+  li.tweet(v-repeat="tweet : tweets")
+    .content {{ tweet.content }}
+    .date {{ tweet.created_at | formatDate}}
